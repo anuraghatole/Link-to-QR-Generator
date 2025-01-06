@@ -14,6 +14,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-console.log("AWS Bucket Name:", process.env.AWS_BUCKET_NAME);
-console.log("AWS Access Key ID:", process.env.AWS_ACCESS_KEY_ID);
-console.log("AWS Secret Access Key:", process.env.AWS_SECRET_ACCESS_KEY);
