@@ -1,5 +1,5 @@
 const qrcode = require("qrcode");
-const { uploadToS3 } = require("../config/awsConfig"); // Correct path to awsConfig
+const { uploadToS3 } = require("../config/awsConfig");
 
 // POST /api/qr/generate
 const generateQRCode = async (req, res) => {

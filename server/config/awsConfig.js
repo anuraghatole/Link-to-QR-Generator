@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const s3 = new AWS.S3({
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-  region: "ap-south-1", // Region for your S3 bucket
+  region: "ap-south-1",
 });
 
 const bucketName = process.env.AWS_BUCKET_NAME;
